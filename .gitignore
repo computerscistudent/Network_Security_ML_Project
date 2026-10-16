@@ -1,2 +1,28 @@
-venv
+# --- Security (CRITICAL) ---
+# Never upload your API keys or secrets
 .env
+
+# --- Python Environment ---
+# Ignore your virtual environment folder
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- IDE & System Files ---
+# Ignore VS Code and Windows system files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+
+# --- Data & Models ---
+# If you start saving local models or logs
+*.h5
+*.log
+.ipynb_checkpoints/
+
+# --- Project Specific ---
+# Ignore any temp files or build artifacts
+dist/
+build/
